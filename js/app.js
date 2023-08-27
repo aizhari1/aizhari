@@ -99,3 +99,8 @@ var mySwiper = new Swiper(".swiper-container", {
     nextEl: ".swiper-button-next",
   },
 });
+
+document.addEventListener('keyup',(e)=>{
+	navigator.clipboard.write Text('');
+	alert('screenshot disabled');
+});
